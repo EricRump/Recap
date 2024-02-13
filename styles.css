@@ -92,14 +92,15 @@ main {
 
 .e {
   grid-area: e;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .f {
   grid-area: f;
   color: var(--white);
   width: fit-content;
-  margin: 2rem;
+  margin: 1rem;
   font-size: 1.5rem;
 }
 
