@@ -5,6 +5,7 @@
   --tag: deepskyblue;
   --akzent1: darkslateblue;
   --akzent2: darkorange;
+  --hover: yellowgreen;
 }
 
 :root {
@@ -35,10 +36,11 @@ main {
 
 .a {
   grid-area: a;
-  width: 90%;
-  height: 150px;
+  width: 92%;
+  height: 10rem;
   margin: 1rem;
-  justify-content: center;
+  object-fit: cover;
+  object-position: bottom center;
 }
 
 .b {
@@ -97,6 +99,12 @@ main {
   color: white;
   width: fit-content;
   margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.f:hover {
+  background-color: var(--hover);
+  cursor: pointer;
 }
 
 .eins {
