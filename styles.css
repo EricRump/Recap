@@ -30,6 +30,7 @@ main {
     "e e"
     "f .";
   max-width: 400px;
+  margin: 1rem;
 }
 
 .a {
@@ -43,6 +44,8 @@ main {
 .b {
   grid-area: b;
   color: var(--gray);
+  margin: 1rem;
+  width: 200px;
 }
 
 .c {
@@ -50,26 +53,29 @@ main {
   color: var(--gray);
   display: flex;
   justify-content: end;
+  margin-right: 2rem;
 }
 
 .img-eins {
   border-radius: 100%;
   border: 5px solid var(--akzent1);
+  width: 3rem;
+  margin-right: 1rem;
 }
 
 .img-zwei {
   border-radius: 100%;
   border: 5px solid var(--akzent2);
+  width: 3rem;
+  margin-right: 1rem;
 }
 
-.d {
+.d p {
   grid-area: d;
   background-color: var(--tag);
   border-radius: 1rem;
   width: fit-content;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 1rem;
+  padding: 0.5rem;
   margin-left: 1rem;
 }
 
@@ -83,6 +89,7 @@ main {
 
 .e {
   grid-area: e;
+  margin: 1rem;
 }
 
 .f {
