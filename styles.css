@@ -6,6 +6,7 @@
   --akzent1: darkslateblue;
   --akzent2: darkorange;
   --hover: yellowgreen;
+  --white: white;
 }
 
 :root {
@@ -96,7 +97,7 @@ main {
 
 .f {
   grid-area: f;
-  color: white;
+  color: var(--white);
   width: fit-content;
   margin: 2rem;
   font-size: 1.5rem;
